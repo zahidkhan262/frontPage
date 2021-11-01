@@ -144,6 +144,14 @@ textarea {
     background: transparent;
 }
 
+.form-heading {
+    text-align: center;
+}
+
+.form-heading h2 {
+    margin-bottom: 20px;
+}
+
 .menu-bar {
     display: none;
 }
