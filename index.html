@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive || Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b6c44059c.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-header d-flex-1">
+            <div class="logo">
+                <img src="logo-1.png" alt="logo" width="100px" height="60px">
+            </div>
+            <div class="contacts">
+                <div class="address d-flex-2 icons">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <span>
+						<p>Address</p>
+						<p>05 Kandi BR, New York</p>
+					</span>
+                </div>
+                <div class="email d-flex-2 icons">
+                    <i class="fa fa-envelope"></i>
+                    <span>
+						<p>Email</p>
+						<p>support@gamil.com</p>
+					</span>
+                </div>
+                <div class="Phone d-flex-2 icons">
+                    <i class="fa fa-phone"></i>
+                    <span>
+						<p>Phone</p>
+						<p>+91 8874262123</p>
+					</span>
+                </div>
+            </div>
+        </div>
+        <nav class="d-flex-1">
+            <ul class="navigation-ul">
+                <li><a href="#">Home +</a></li>
+                <li><a href="#">About +</a></li>
+                <li><a href="#">Services +</a></li>
+                <li><a href="#">Pages +</a></li>
+                <li><a href="#">Blog +</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest-p"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <div class="menu-bar">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="rows">
+            <div class="cols-6 ends">
+                <div class="content-caption">
+                    <h3>IT Consulting Services <br> For Your Business</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Atque, at? Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="cols-6 center">
+                <form>
+                    <div class="form-heading">
+                        <h2>Schedule Your Appointment</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="E-Mail">
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="input-field">
+                        <textarea placeholder="Your Message Here"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.menu-bar').on('click', function() {
+                $('.navigation-ul').toggleClass('hideShow')
+            })
+        })
+    </script>
+
+</body>
+
+</html>
