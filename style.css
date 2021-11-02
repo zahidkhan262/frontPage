@@ -164,6 +164,9 @@ textarea {
         width: 100%;
         flex-direction: column;
     }
+    .main {
+        height: auto;
+    }
     .content-caption {
         margin-top: 10px;
         width: 100%;
